@@ -72,16 +72,16 @@ header {
   /*background: #0299b4;*/
   background-image: url("../img/header.png");
   background-repeat:no-repeat;
-  background-size:100% 100%;
+  background-size: 100% ;
   color: white;
 }
-header .container {
+/*header .container {
   padding-top: 100px;
   padding-bottom: 50px;
-}
+}*/
 header img {
   display: block;
-  margin: 0 auto 20px;
+  /*margin: 0 auto 20px;*/
 }
 header .intro-text .name {
   display: block;
@@ -531,6 +531,10 @@ fieldset[disabled] .btn-success.active {
   -webkit-transform: scale(0,1);
   -ms-transform: scale(0,1);
   transform: scale(0,1);
+}
+
+#headerImg{
+  padding: 0px 0px;
 }
 
 .hovereffect:hover .overlay {
