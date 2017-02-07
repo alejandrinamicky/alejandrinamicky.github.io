@@ -70,10 +70,15 @@ hr.star-primary:after {
 header {
   text-align: center;
   /*background: #0299b4;*/
-  background-image: url("../img/header.png");
+  /*background-image: url("../img/header.png");*/
   background-repeat:no-repeat;
   background-size: 100% ;
-  color: #2C3E50;
+
+}
+#socialMedia{
+    background-color: #2C3E50;
+    margin: 0 auto 20px;
+    padding: 10px 10px;
 }
 /*header .container {
   padding-top: 100px;
