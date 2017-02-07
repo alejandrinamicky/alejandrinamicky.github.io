@@ -272,6 +272,27 @@ section.success {
   box-shadow: none !important;
   resize: none;
 }
+#mc-embedded-subscribe{
+z-index: 1;
+position: relative;
+padding-right: 0;
+padding-left: 0;
+border: none;
+border-radius: 0;
+font-size: 1.5em;
+background: none;
+box-shadow: none !important;
+resize: none;
+}
+#mc-embedded-subscribe:hover {
+    color: #0299b4;
+}
+#mce-EMAIL{
+  padding: 8px;
+  color:#2C3E50;
+  margin-bottom: 10px;
+}
+
 .floating-label-form-group label {
   display: block;
   z-index: 0;
