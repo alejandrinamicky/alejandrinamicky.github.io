@@ -40,11 +40,14 @@ h2{
   font-family: Heading-Font;
 }
 h3,
-h4,
+h4{
+  font-family: Main-Font-Bold;
+   font-size: 250%;
+}
 h5,
 h6 {
   font-family: Main-Font-Bold;
-  font-weight: 700;
+   font-size: 180%;
 }
 hr.star-light,
 hr.star-primary {
@@ -132,7 +135,7 @@ header .intro-text .skills {
 }
 #PageHeading{
     font-family:  Heading-Font;
-    color: #fb4f14;
+    color: #fff;
 }
 .navbar-custom a:focus {
   outline: none;
@@ -222,10 +225,17 @@ section.success {
   }
 }
 .learnMore{
-  color: #fb4f14;
+  color: #fff;
 }
 .learnMore h3:hover{
-  color: #FFF;
+  color: #fb4f14;
+}
+.Letter{
+  font-family: Main-Font-Bold;
+  color: #fb4f14;
+}
+#visionP{
+  font-size: 35px;
 }
 #Platform .portfolio-item {
   margin: 0 0 15px;
