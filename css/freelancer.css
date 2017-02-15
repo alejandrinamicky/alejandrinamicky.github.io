@@ -34,6 +34,7 @@ a:active,
 a.active {
   color: #0299b4;
   outline: none;
+  text-decoration: none !important;
 }
 h1,
 h2{
@@ -48,6 +49,10 @@ h5,
 h6 {
   font-family: Main-Font-Bold;
    font-size: 180%;
+   color: #fb4f14;
+}
+.tile {
+  font-size: 150%;
 }
 hr.star-light,
 hr.star-primary {
@@ -73,14 +78,14 @@ hr.star-light {
 }
 hr.star-light:after {
   background-color: #0299b4;
-  color: white;
+  color:  #fb4f14;
 }
 hr.star-primary {
   border-color: #0299b4;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #0299b4;
+  color: #fb4f14;
 }
 .img-centered {
   margin: 0 auto;
@@ -229,10 +234,19 @@ section.success {
 }
 .learnMore h3:hover{
   color: #fb4f14;
+  text-decoration: none !important;
 }
 .Letter{
   font-family: Main-Font-Bold;
   color: #fb4f14;
+}
+.list{
+  display: inline;
+  clear:none;
+}
+strong{
+  font-family: Main-Font-Bold;
+  font-size: 150%;
 }
 #visionP{
   font-size: 35px;
