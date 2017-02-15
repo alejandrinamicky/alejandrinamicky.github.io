@@ -601,50 +601,10 @@ fieldset[disabled] .btn-success.active {
   color: #fff;
 }
 
-html {
-  line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-q, blockquote {
-  quotes: none;
-}
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-a img {
-  border: none;
-}
-
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-*,
-*:after,
-*:before {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  background-repeat: no-repeat;
-  position: relative;
-}
 
 .dev-output {
   display: none;
@@ -657,14 +617,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   overflow-y: scroll;
 }
 
-.cell-dev {
-  margin: 3px 1px 0 1px;
-  float: left;
-  padding: 0 1px;
-  font-size: 9px;
-  background-color: #555;
-  color: #ddd;
-}
 
 .x-dev,
 .y-dev {
