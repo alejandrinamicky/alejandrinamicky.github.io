@@ -868,3 +868,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 .high-score-form input[type=submit]:active {
   background-color: #e67e22
+}
+#voteNow {
+  position: fixed;
+   top: 100px;
+   right: 1px;
+   color: #fb4f14;
+}
+
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 44px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+            border-color: #fb4f14;
+}
