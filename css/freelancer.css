@@ -873,12 +873,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: fixed;
    top: 100px;
    right: 1px;
+   left: 80%;
    color: #fb4f14;
 }
 
 .btn-xlarge {
     padding: 18px 28px;
-    font-size: 44px; //change this to your desired size
+     font-size: 3.2vw; //change this to your desired size
+     text-align: center;
     line-height: normal;
     -webkit-border-radius: 8px;
        -moz-border-radius: 8px;
